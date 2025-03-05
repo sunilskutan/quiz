@@ -1,0 +1,84 @@
+body {
+    font-family: Calibri, Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    background-image: url('bg.jpg');
+}
+
+.registerContainer,.modifyContainer {
+
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 0px 10px gray;
+    border-radius: 5px;
+}
+
+.loginContainer {
+    width: 300px;
+    margin: auto;
+    padding: 30px;
+    background: white;
+    box-shadow: 0px 0px 10px gray;
+    border-radius: 5px;
+}
+
+
+.findUserByIdContainer {
+ 
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 0px 10px gray;
+    border-radius: 5px;
+}
+
+input.log {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+input {
+    width: 80%;
+    padding: 5px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button.log {
+    width: 40%;
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button {
+    width: 60%;
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+textarea {
+    width: 90%;              /* Reduced from 100% to 90% */
+    height: 6.25em;         /* Default height is ~2.5em, so 2.5 × 2.5 = 6.25em */
+    color: red;
+    border-radius: 5px;
+}
