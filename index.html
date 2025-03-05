@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login & Registration</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ <div class="loginContainer" id="loginPage">
+        <h2>Login</h2>
+        <input type="text" id="loginUsername" placeholder="Enter Username" class="log">
+        <input type="password" id="loginPassword" placeholder="Enter Password" class="log">
+        <button onclick="loginUser()" class="log">Login</button>
+        <button onclick="window.location.href = 'signup.html';" class="log">SignUp</button>
+       <button onclick="window.location.href = 'quiz.html';" class="log">Proceed without Login</button>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
